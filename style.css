@@ -1,5 +1,5 @@
 :root {
-    --color-pink: #faa7ed;
+    --color-pink: #ee55e1;
     --color-navy: #0c1f72;
     --color-navy-opaque: rgba(6, 0, 79, 0.77);
     --color-light: #ffffff;
@@ -58,13 +58,27 @@ figcaption{
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: .5;
-    
+    opacity: .5; 
     background-color: var(--color-pink);
   }
   figure:hover .overlay{
       opacity: 0;
       transition: .5s ease;
+  }
+  figure:hover #arrow-icon{
+      opacity: 1;
+      
+  }
+  #arrow-icon{
+    width: 2rem;
+    opacity:0;
+    height:2rem;
+    position: absolute;
+    top:1.6rem;
+    right:1.6rem;
+    bottom:0;
+    background-image: url(./assets/svg/caret.svg);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(169deg) brightness(103%) contrast(101%);
   }
 /* figure{
     margin-inline-end: 0px;
