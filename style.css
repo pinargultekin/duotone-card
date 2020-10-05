@@ -23,6 +23,7 @@ img{
     width:20.3rem;
     height: 23rem;
     margin:1rem;
+    position: relative;
 }  
 h1{
     font-size:3.2rem;
@@ -31,6 +32,40 @@ h1{
 .card-group{
     display:flex;
 }
+figure{
+    position: relative;
+    /* width: 50%;   */
+}
+figcaption{
+    position: absolute;
+    margin-left:1rem;
+    padding-top:1.5rem;
+    padding-left:1.5rem;
+    color:var(--color-light);
+    background-color:var(--color-navy-opaque);
+    width:20.3rem;
+    height:6rem;
+    font-size: 1.5rem;
+    margin-top:-6.9rem;
+    
+}
+.overlay {
+    margin:1rem;
+    position: absolute;
+    width:20.3rem;
+    height: 23.3rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .5;
+    
+    background-color: var(--color-pink);
+  }
+  figure:hover .overlay{
+      opacity: 0;
+      transition: .5s ease;
+  }
 /* figure{
     margin-inline-end: 0px;
     margin-inline-start: 0px;
