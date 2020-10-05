@@ -1,0 +1,38 @@
+:root {
+    --color-pink: #faa7ed;
+    --color-navy: #0c1f72;
+    --color-navy-opaque: rgba(6, 0, 79, 0.77);
+    --color-light: #ffffff;
+    --color-dark: #252525;
+    font-size:10px;
+  }
+
+ *, *:after, *:before{
+     margin:0;
+     box-sizing: border-box;
+ } 
+ body{
+    font-family: Georgia, serif;
+ }
+  #main-cont{
+      margin: 0 auto;
+      width:67rem;
+      padding:13% 0;
+  }
+img{
+    width:20.3rem;
+    height: 23rem;
+    margin:1rem;
+}  
+h1{
+    font-size:3.2rem;
+    margin:1rem;
+}
+.card-group{
+    display:flex;
+}
+/* figure{
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    
+} */
