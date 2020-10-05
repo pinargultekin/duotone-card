@@ -80,8 +80,7 @@ figcaption{
     background-image: url(./assets/svg/caret.svg);
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(169deg) brightness(103%) contrast(101%);
   }
-/* figure{
-    margin-inline-end: 0px;
-    margin-inline-start: 0px;
-    
-} */
+#role{
+    font-family: Helvetica, sans-serif;
+    font-size:1.25rem;
+}
